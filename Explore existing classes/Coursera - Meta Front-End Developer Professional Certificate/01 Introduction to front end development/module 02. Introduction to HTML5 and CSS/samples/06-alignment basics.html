@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<!-- Descendant Selectors -->
+<h1>Alignment Basics</h1>
+<h2>Text Alignment</h2>
+<style>
+    p {
+        text-align: center;
+    }
+
+    #p2 {
+        text-align: right;
+    }
+</style>
+
+<p>
+    <span>Lorem ipsum dolor sit amet</span>>
+    <b>consectetur adipiscing elit, </b>
+    <em>sed do eiusmod tempor incididunt ut</em>
+    <span>labore et <span>dolore</span> magna aliqua. </span>
+</p>
+
+<p id="p2">
+    <span>Lorem ipsum dolor sit amet</span>
+    <b>consectetur adipiscing elit, </b>
+    <em>sed do eiusmod tempor incididunt ut</em>
+    <span>labore et <span>dolore</span> magna aliqua. </span>
+</p>
+
+<h2>HTML Element Alignment Alignment</h2>
+<style>
+    .parent {
+        border: 4px solid red;
+        margin: 2px;
+    }
+
+    .child {
+        width: 50%;
+        padding: 20px;
+        border: 4px solid green;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        display: block;
+    }
+</style>
+
+<div class="parent">
+    <div class="child">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </div>
+</div>
+
+<div class="parent">
+    <img src="photo.png" class="child">
+</div>
+
+<h2>HTML Element Left / Right Alignment</h2>
+
+<div class="parent">
+    <img src="photo.png" class="child" style="float: left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Curabitur eu odio eget leo auctor porta sit amet sit amet justo. Donec fermentum quam in diam
+    volutpat, at lacinia diam placerat. Aenean quis feugiat sem. Suspendisse a dui massa. Phasellus
+    scelerisque, mi vestibulum iaculis tristique, orci tellus gravida nisi, in pellentesque elit
+    massa ut lorem. Sed elementum ornare nunc vel cursus. Duis sed enim in nulla efficitur convallis
+    sed eget dolor. Curabitur scelerisque eros erat, in vulputate dolor consequat vel. Praesent ac
+    sapien condimentum, ultricies libero at, auctor orci. Curabitur ut augue ac massa convallis
+    faucibus sed in magna. Phasellus scelerisque auctor est a auctor. Nam laoreet sem sapien, porta
+    imperdiet urna laoreet eu. Morbi dolor turpis, congue id bibendum eget, viverra et risus.
+    Quisque vitae erat id tortor ullamcorper maximus.
+</div>
+
+<style>
+    .childCustomFloat {
+        float: right;
+        width: 50%;
+        padding: 20px;
+        border: 4px solid green;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+</style>
+<div class="parent">
+    <img src="photo.png" class="childCustomFloat" > Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Curabitur eu odio eget leo auctor porta sit amet sit amet justo. Donec fermentum quam in diam
+    volutpat, at lacinia diam placerat. Aenean quis feugiat sem. Suspendisse a dui massa. Phasellus
+    scelerisque, mi vestibulum iaculis tristique, orci tellus gravida nisi, in pellentesque elit
+    massa ut lorem. Sed elementum ornare nunc vel cursus. Duis sed enim in nulla efficitur convallis
+    sed eget dolor. Curabitur scelerisque eros erat, in vulputate dolor consequat vel. Praesent ac
+    sapien condimentum, ultricies libero at, auctor orci. Curabitur ut augue ac massa convallis
+    faucibus sed in magna. Phasellus scelerisque auctor est a auctor. Nam laoreet sem sapien, porta
+    imperdiet urna laoreet eu. Morbi dolor turpis, congue id bibendum eget, viverra et risus.
+    Quisque vitae erat id tortor ullamcorper maximus.
+</div>
+
+</body>
+</html>

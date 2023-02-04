@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<!-- Descendant Selectors -->
+<h1>Document flow</h1>
+
+<h2>Default</h2>
+<div>
+    <span>Lorem ipsum dolor sit amet</span>>
+    <b>consectetur adipiscing elit, </b>
+    <em>sed do eiusmod tempor incididunt ut</em>
+    <span>labore et <span>dolore</span> magna aliqua. </span>
+</div>
+
+<h2>Div in the middle</h2>
+<div>
+    <span>Lorem ipsum dolor sit amet</span>>
+    <b>consectetur adipiscing elit, </b>
+    <div><em>sed do eiusmod tempor incididunt ut</em></div>
+    <span>labore et <span>dolore</span> magna aliqua. </span>
+</div>
+
+<h2>change div flow box to inlie</h2>
+<style>
+    #middle {
+        display: inline;
+    }
+</style>
+
+<div>
+    <span>Lorem ipsum dolor sit amet</span>>
+    <b>consectetur adipiscing elit, </b>
+    <div id="middle"><em>sed do eiusmod tempor incididunt ut</em></div>
+    <span>labore et <span>dolore</span> magna aliqua. </span>
+</div>
+
+</body>
+</html>
