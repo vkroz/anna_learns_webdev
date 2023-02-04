@@ -1,0 +1,16 @@
+img {
+    display: block;
+    border: 2px solid blue;
+}
+
+#name {
+    color: blue;
+}
+
+h2 {
+    color: grey;
+}
+
+div {
+    margin: 4px;
+}

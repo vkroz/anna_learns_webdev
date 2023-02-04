@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layouts samples</title>
+</head>
+<body>
+
+<h1>Parent display - none</h1>
+<div>
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+</div>
+
+<hr/>
+
+<h1>Parent display - `flow`</h1>
+<h2>Child display - none</h2>
+<div style="display: flow">
+    <div>div One</div>
+    <div>div Two</div>
+    <div>div Three</div>
+    <span>span One</span>
+    <span>span Two</span>
+    <span>span Three</span>
+</div>
+
+<h2>Child display - block</h2>
+<div style="display: flow">
+    <div style="display: block">One</div>
+    <div style="display: block">Two</div>
+    <div style="display: block">Three</div>
+    <span style="display: block">span One</span>
+    <span style="display: block">span Two</span>
+    <span style="display: block">span Three</span>
+</div>
+
+<h2>Child display - invline</h2>
+<div style="display: flow">
+    <div style="display: inline">One</div>
+    <div style="display: inline">Two</div>
+    <div style="display: inline">Three</div>
+    <span style="display: inline">span One</span>
+    <span style="display: inline">span Two</span>
+    <span style="display: inline">span Three</span>
+</div>
+
+<hr/>
+<hr/>
+
+<div>
+    <div style="display: flex">One</div>
+    <div style="display: flex">Two</div>
+    <div style="display: flex">Three</div>
+</div>
+
+<hr/>
+
+<div>
+    <div style="display: grid">One</div>
+    <div style="display: grid">Two</div>
+    <div style="display: grid">Three</div>
+</div>
+
+</body>
+</html>
